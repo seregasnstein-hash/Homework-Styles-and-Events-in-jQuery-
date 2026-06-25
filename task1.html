@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style1.css">
+    <script
+      src="https://code.jquery.com/jquery-4.0.0.min.js"
+      integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/task1.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Random String Generator</h1>
+        <div class="string__length">
+          <p>String should be</p>
+          <input class="string__length-input" type="number" />
+          <p>characters long.</p>
+        </div>
+        <p class="characters">
+          Which characters are allowed to occur in the strings?
+        </p>
+        <form class="form">
+          <div>
+            <input class="input__characters" id="numeric" type="checkbox" />
+            <label for="numeric">Numeric digits (0-9)</label>
+          </div>
+          <div>
+            <input class="input__characters" id="uppercase" type="checkbox" />
+            <label for="uppercase">Uppercase letters (A-Z)</label>
+          </div>
+          <div>
+            <input class="input__characters" id="lowercase" type="checkbox"/>
+            <label for="lowercase">Lowercase letters (a-z)</label>
+          </div>
+        </form>
+        <button class="btn_generate">Generate</button>
+        <hr />
+        <div class="result">
+          <h2>Result:</h2>
+          <input class="result__input" type="text" readonly/>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
