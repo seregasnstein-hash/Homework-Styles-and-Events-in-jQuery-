@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style3.css" />
+    <script
+      src="https://code.jquery.com/jquery-4.0.0.min.js"
+      integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/task3.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="ticket">
+          <div>
+            <label for="direction">Direction:</label>
+            <select id="direction">
+              <option value="Almaty - Pavlodar">Almaty - Pavlodar</option>
+              <option value="Odessa - Lviv">Odessa - Lviv</option>
+              <option value="Astana - Almaty">Astana - Almaty</option>
+            </select>
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input id="date" type="date" />
+          </div>
+          <button class="btn__search">Search</button>
+        </div>
+        <hr class="line" />
+        <div class="railcar">
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>1</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>3</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>2</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>4</label>
+            </div>
+          </div>
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>5</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>7</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>6</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>8</label>
+            </div>
+          </div>
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>9</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>11</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>10</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>12</label>
+            </div>
+          </div>
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>13</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>15</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>14</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>16</label>
+            </div>
+          </div>
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>17</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>19</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>18</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>20</label>
+            </div>
+          </div>
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>21</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>23</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>22</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>24</label>
+            </div>
+          </div>
+          <div class="checkbox_container">
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>25</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>27</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>26</label>
+            </div>
+            <div class="inp__check">
+              <input type="checkbox" />
+              <label>28</label>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <p class="price__text">Total price: 0$</p>
+          <button class="btn__book">Book</button>
+        </div>
+      </div>
+      <div class="table__container">
+        <table id="myTable">
+          <caption>
+            My tickets:
+          </caption>
+          <thead>
+            <tr>
+              <th>Direction</th>
+              <th>Date</th>
+              <th>Seat</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <button class="btn__close"></button>
+      </div>
+    </main>
+  </body>
+</html>
